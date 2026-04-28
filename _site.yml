@@ -15,7 +15,8 @@ navbar:
       href: files/Wilhelm_Emily_Res.pdf
       icon: fa-paperclip
   right: 
-    - href: https://github.com/EmilyWilhelm15
-    incon: fa-github
+    - test: "Github"
+      href: https://github.com/EmilyWilhelm15
+      icon: fa-github
        
 output_dir: docs
