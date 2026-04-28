@@ -3,19 +3,20 @@ title: "My Website"
 ---
 
 ::: columns
-::: {.column width="50%" style="text-align: center;"} 
+::: {.column width="50%" style="text-align: center;"}
 
-```{r, echo=FALSE, fig.align='center', out.width='40%'}
-knitr::include_graphics("images/image.jpg") #edit for name of image
+```{r, echo=FALSE, fig.align='center', out.width='100%'}
+knitr::include_graphics("images/image.jpg")
 ```
 
-## Your Name
+## Emily Wilhelm
 
 :::
 
 ::: {.column width="50%" style="text-align: left;"}
 
-Add some text here describing yourself. Add a [link](https://google.com) so we can see behavior later. 
+
+I recently earned my MPH in Environmental Health from Emory Rollins School of Public Health, with certificates in Data Science and Climate & Health. My research at Rollins focuses on using statistical and geospatial analysis to evaluate how environmental exposures, such as air pollution and heat, impact health. I integrate complex datasets to identify exposure patterns, assess risk, and support data-driven public health decision-making, and I have experience translating findings for both technical and community audiences. 
 
 :::
 

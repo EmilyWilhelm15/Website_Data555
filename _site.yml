@@ -4,7 +4,18 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+      icon: fa-home
     - text: "About"
       href: about.html
+      icon: fa-book-open
+    - text: "Projects"
+      href: projects.html
+      icon: fa-computer
+    - text: "Resume"
+      href: files/Wilhelm_Emily_Res.pdf
+      icon: fa-paperclip
+  right: 
+    - href: https://github.com/EmilyWilhelm15
+    incon: fa-github
        
 output_dir: docs
