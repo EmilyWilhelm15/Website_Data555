@@ -45,7 +45,7 @@ title: ""
   </p>
   
   <iframe 
-    src="https://emilywilhelm15.github.io/Website_Data555/files/Mangrove_NDVI.pdf"
+    src="https://EmilyWilhelm15.github.io/Website_Data555/files/Mangrove_NDVI.pdf"
     width = "100%"
     height="800px"
     style="border: none;">
@@ -99,7 +99,7 @@ function showProject(id) {
 }
 
 function backToProjects() {
-  document.getElementById('project-gallery').style.display = 'grid';
+  document.getElementById('project-gallery').style.display = 'block';
 
   document.querySelectorAll('.project-display').forEach(project => {
     project.style.display = 'none';
