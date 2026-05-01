@@ -168,7 +168,7 @@ h1.title {
   color: #000;
 }
 
-/* Gallery layout */
+/*Gallery layout*/
 .project-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -177,7 +177,7 @@ h1.title {
   margin: 0 auto 50px auto;
 }
 
-/* Project cards */
+/*Project cards*/
 .project-card {
   text-align: center;
   cursor: pointer;
@@ -186,12 +186,12 @@ h1.title {
   transition: transform 0.2s ease;
 }
 
-/* Card hover (lift effect) */
+/*Card hover (lift effect)*/
 .project-card:hover {
   transform: translateY(-3px);
 }
 
-/* Images */
+/*project images*/
 .project-card img {
   width: 100%;
   height: 240px;
@@ -202,7 +202,7 @@ h1.title {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-/*project ymage hover */
+/*project image hover */
 .project-card:hover img {
   opacity: 0.9;
 }
@@ -222,7 +222,7 @@ h1.title {
   padding: 0 20px;
 }
 
-/* Project titles when displayed*/
+/*Project titles when displayed*/
 .project-display h2 {
   text-align: center;
   font-size: 32px;
@@ -230,7 +230,7 @@ h1.title {
   margin: 10px 0 25px 0;
 }
 
-/* Back button */
+/*Back button*/
 .back-button {
   margin-bottom: 25px;
   padding: 8px 16px;
@@ -243,15 +243,95 @@ h1.title {
   transition: all 0.2s ease;
 }
 
-/* Back button hover */
+/*Back button hover*/
 .back-button:hover {
   border-color: #555;
   background-color: #f5f5f5;
 }
 
-/* Mobile responsiveness */
+/* Mobile homepage */
 @media (max-width: 768px) {
+
+  .home-page {
+    padding: 20px 0;
+  }
+
+  .home-wrapper {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  .home-card {
+    padding: 30px 20px;
+    border-radius: 16px;
+  }
+
+  .home-name {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .columns {
+    display: block;
+  }
+
+  .columns .column {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .columns img {
+    max-width: 260px;
+    margin: 0 auto 25px auto;
+  }
+
+  .columns .column:last-child {
+    text-align: left !important;
+  }
+
+  .columns .column p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
   .project-gallery {
     grid-template-columns: 1fr;
+    gap: 25px;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .project-card img {
+    height: 200px;
+  }
+
+  .project-card p {
+    font-size: 18px;
+  }
+
+  .project-display {
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  .project-display h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .project-display p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .project-display iframe {
+    height: 500px;   
+  }
+
+  .back-button {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-bottom: 15px;
   }
 }
