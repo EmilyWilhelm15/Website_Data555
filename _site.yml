@@ -1,22 +1,25 @@
 name: "my-website"
 navbar:
-  title: "My Website"
+  title: "Emily Wilhelm"
   left:
     - text: "Home"
       href: index.html
       icon: fa-home
-    - text: "About"
-      href: about.html
-      icon: fa-book-open
-    - text: "Projects"
+    - text: "Project Gallery"
       href: projects.html
       icon: fa-computer
     - text: "Resume"
-      href: files/Wilhelm_Emily_Res.pdf
+      href: resume.html
       icon: fa-paperclip
   right: 
-    - test: "Github"
+    - text: "Github"
       href: https://github.com/EmilyWilhelm15
       icon: fa-github
+  author: 
+    - name: "Emily Wilhelm"
+  
+output:
+  html_document:
+    css: style.css  
        
 output_dir: docs
