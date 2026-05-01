@@ -268,22 +268,30 @@ h1.title {
   }
 
   .home-name {
+    display: block;
+    text-align: center;
     font-size: 32px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 
   .columns {
-    display: block;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 25px;
   }
 
   .columns .column {
     width: 100% !important;
+    max-width: 100% !important;
     text-align: center !important;
   }
 
   .columns img {
     max-width: 260px;
-    margin: 0 auto 25px auto;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 
   .columns .column:last-child {
