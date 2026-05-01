@@ -76,6 +76,12 @@ title: ""
     </a>
   </p>
   
+  <p>
+    <a href="https://github.com/EmilyWilhelm15/Dashboard_555" target="_blank">
+      View code on GitHub →
+    </a>
+  </p>
+  
   <iframe 
     src="https://emilywilhelm.shinyapps.io/dashboard/#section-participant-data" 
     width="100%" 
